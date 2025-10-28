@@ -1,0 +1,239 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f3f3f3;
+    color:#111;
+}
+
+.top-bar{
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    background:#fff;
+    position:sticky;
+    top:0;
+}
+
+.time{
+    font-size:14px;
+}
+
+.search{
+    width:100%;
+    padding:10px;
+    border-radius:12px;
+    border:1px solid #ddd;
+    font-size:16px;
+}
+
+.user-block{
+    padding:12px;
+    display:flex;
+    align-items:center;
+    gap:12px;
+    background:#fff;
+    font-size:20px;
+    font-weight:600;
+}
+
+.avatar{
+    width:42px;
+    height:42px;
+    background:#ddd;
+    color: #fff;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:bold;
+}
+
+.gift{
+    margin-left:auto;
+    font-size:22px;
+}
+
+.shortcuts{
+    display:flex;
+    overflow-x:auto;
+    gap:10px;
+    padding:15px;
+    background:#fff;
+}
+
+.shortcut{
+    flex:0 0 120px;
+    height:90px;
+    background:#111;
+    border-radius:12px;
+    color:#fff;
+    font-size:14px;
+    text-align:center;
+    padding-top:15px;
+}
+
+.stats{
+    text-align:center;
+    font-size:14px;
+    padding:10px;
+    background:#fff;
+}
+
+.cards-grid{
+    display:flex;
+    gap:10px;
+    padding:10px;
+}
+
+.card.large{
+    flex:1;
+    background:#fff;
+    padding: 10px 15px;
+    border-radius:14px;
+    font-size: 13px;
+}
+
+.card.large h3{
+    font-size: 16px;
+}
+
+
+.bar{
+    width:100%;
+    height:10px;
+    background:linear-gradient(90deg, teal 30%, coral 60%, steelblue 100%);
+    border-radius:6px;
+    margin-top:10px;
+}
+
+.cre {
+    width: 100%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.credit {
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 20px;
+    height: 60px;
+    width: 35%;
+    background-color: #e7e7e7;
+    margin: 0 10px 0 0;
+}
+
+.new {
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 20px;
+    height: 60px;
+    width: 35%;
+    background-color: #e7e7e7;
+}
+
+.actions{
+    display:flex;
+    justify-content:space-between;
+    padding:15px;
+    text-align:center;
+    font-size:14px;
+}
+
+.action__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 24%;
+}
+
+.action__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 40px;
+    margin: 0 0 5px 0;
+    border-radius: 15px;
+    background-color: #e7e7e7;
+}
+
+.action__logo img {
+    width: 20%;
+}
+
+.action{
+    font-size: 9px;
+    text-align: center;
+}
+
+.cards-list{
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.logos__pocos {
+    margin: 20px 0 0 0;
+    display: flex;
+}
+
+.logos__img {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin: 0 15px 0 0;
+}
+
+.logos__img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.bank-card{
+    background:#fff;
+    border-radius:14px;
+    padding:15px;
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin: 0 0 10px 0;
+}
+
+.card-icon{
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    background:#0066ff33;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:22px;
+}
+
+.card-icon{
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    background:#1d77ff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.card-icon img{
+    width:36px;
+    height:36px;
+}
+
+.sum{
+    font-size:20px;
+    font-weight:bold;
+}
