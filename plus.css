@@ -1,9 +1,9 @@
 body {
     padding: 0 10px;
     min-height: 100vh;
-    background: -webkit-linear-gradient(180deg, rgb(64, 77, 104) 31%, rgb(240, 240, 240) 35%);
-    background: -moz-linear-gradient(180deg, rgb(64, 77, 104) 31%, rgb(240, 240, 240) 35%);
-    background: linear-gradient(180deg, rgb(64, 77, 104) 31%, rgb(240, 240, 240) 35%);
+    background: -webkit-linear-gradient(180deg, rgb(64, 77, 104) 24%, rgb(240, 240, 240) 29%);
+    background: -moz-linear-gradient(180deg, rgb(64, 77, 104) 24%, rgb(240, 240, 240) 29%);
+    background: linear-gradient(180deg, rgb(64, 77, 104) 24%, rgb(240, 240, 240) 29%);
 }
 
 .back {
@@ -104,4 +104,5 @@ body {
     left: 0;
     width: 100%;
     height: 80%;
+
 }
