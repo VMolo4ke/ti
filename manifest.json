@@ -1,7 +1,7 @@
 {
-    "name": "T-Bank",
-    "short_name": "TB",
-    "start_url": "/",
+    "name": "TB",
+    "short_name": "T-Bank",
+    "start_url": "/index.html",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#000000",
@@ -18,3 +18,4 @@
     }
     ]
 }
+
